@@ -12,10 +12,7 @@ namespace Part_1
 			produkt = 0;
 			quotient = 0;
 			modulo = 0;
-			
 
-			
-			
 			Console.Write("Bitte die erste Zahl eintragen: ");
 			zahl1 = Convert.ToInt32 (Console.ReadLine() );
 			
@@ -44,10 +41,8 @@ namespace Part_1
 					quotient = zahl1 / zahl2;
 					modulo = zahl1 % zahl2;
 					Console.WriteLine("Der Quotient der zwei Zahlen lautet: {0} Rest {1}", quotient, modulo);
-					break;
-					
+					break;		
 			}
-			
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
