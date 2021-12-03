@@ -19,7 +19,7 @@ namespace Part_1
 			Console.Write("Bitte die zweite Zahl eintragen: ");
 			zahl2 = Convert.ToInt32 (Console.ReadLine() );
 			
-			Console.WriteLine("Bitte waehlen die gewuenschte Rechenoperation eintragen. (+,-,*,/)");
+			Console.Write("Bitte waehlen die gewuenschte Rechenoperation eintragen. (+,-,*,/)");
 			char mathe;
 			mathe = Convert.ToChar(Console.ReadLine());
 			
